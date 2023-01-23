@@ -1,8 +1,8 @@
 let tileSheet = new Image();
-tileSheet.src = "./tiles.png";
+tileSheet.src = "./tiles3.png";
 
-let tileWidth = 16;
-let tileHeight = 16;
+let tileWidth = 32;
+let tileHeight = 32;
 let tiles = [];
 
 tileSheet.onload = function() {
@@ -39,10 +39,10 @@ tileSheet.onload = function() {
 //fin de separacion de recursos
 
 let map = [
-  [0, 0, 2, 3],
-  [4, 5, 6, 7],
-  [8, 9, 10, 11],
-  [12, 13, 14, 15]
+  [177,80,80,80,80,176],
+  [177,80, 80,80,80, 176],
+  [177, 80, 80,80,80, 176],
+  [177, 80, 80,80,80, 176]
 ];
 
 window.onload = function(){
